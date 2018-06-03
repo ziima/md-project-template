@@ -1,0 +1,11 @@
+# Parameters
+set INPUT_PREFIX "../01_warm/01_warm"
+set OUTPUT_PREFIX "02_equil"
+set OUTPUT_FREQ 5000
+set PHASE "run"
+set STEPS 1000000
+
+margin 2
+
+# Load commons and run script
+source "../namd.tcl"

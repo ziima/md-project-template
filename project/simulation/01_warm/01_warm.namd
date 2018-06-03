@@ -1,0 +1,7 @@
+# Parameters
+set INPUT_PREFIX "../00_minimize/00_minimize"
+set OUTPUT_PREFIX "01_warm"
+set PHASE "warm"
+
+# Load commons and run script
+source "../namd.tcl"

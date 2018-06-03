@@ -1,0 +1,16 @@
+# Parameters
+set OUTPUT_PREFIX "00_minimize"
+set PHASE "minimize"
+set STEPS 1000
+
+# Initial coordinates
+coordinates "../initial.pdb"
+
+# Define initial cell dimensions
+# cellbasisvector1  96.90   0.00   0.00
+# cellbasisvector2   0.00  97.47   0.00
+# cellbasisvector3   0.00   0.00  97.89
+# cellorigin         0.00   0.00  29.00
+
+# Load commons and run script
+source "../namd.tcl"
